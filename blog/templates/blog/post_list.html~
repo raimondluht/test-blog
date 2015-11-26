@@ -1,6 +1,17 @@
 <html>
-	<p>Hi there!</p>
-	<p>It works!</p>
+<head>
+	<title>Django Test Blog</title>
+</head>
+<body>
+	<div>
+		<h1><a href="">Django Test Blog</a></h1>
+	</div>
+
+	{% for post in posts %}
+		{{post}}
+	{% endfor %}
+
+</body>
 </html>
 
 
